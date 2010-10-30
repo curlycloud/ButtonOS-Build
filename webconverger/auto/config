@@ -21,7 +21,7 @@ lb config noauto --clean \
 	--iso-volume "CommonDE $(date +%Y%m%d-%H:%M)" \
 	--memtest none \
 	--syslinux-splash config/binary_syslinux/splash.rle \
-	--syslinux-timeout 0 \
+	--syslinux-timeout 1 \
 	--mirror-bootstrap ${MIRROR_DEBIAN} \
 	--binary-indices false \
 	--win32-loader false \
