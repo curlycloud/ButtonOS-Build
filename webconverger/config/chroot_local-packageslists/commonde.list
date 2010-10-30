@@ -1,0 +1,7 @@
+#ssh client and server
+openssh-client
+openssh-server
+firmware-linux
+curl-ssl
+sqlite3
+uuid
