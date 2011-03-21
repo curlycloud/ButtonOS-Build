@@ -7,7 +7,8 @@ console-common kbd locales
 dhcp3-client
 
 # X11
-xorg xresprobe discover menu
+#jjg xorg xresprobe discover menu
+xorg discover menu
 
 # Sound
 alsa-base alsa-oss alsa-utils
@@ -72,53 +73,53 @@ ntpdate
 
 iputils-ping
 
-iceweasel-l10n-all
+#jjgiceweasel-l10n-all
 
 # Dictionaries
-myspell-af
-myspell-bg
-myspell-ca
-myspell-cs-cz
-myspell-da
-myspell-de-at
-myspell-de-ch
-myspell-de-de
-myspell-el-gr
-myspell-en-au
-myspell-en-gb
+#jjgmyspell-af
+#jjgmyspell-bg
+#jjgmyspell-ca
+#jjgmyspell-cs-cz
+#jjgmyspell-da
+#jjgmyspell-de-at
+#jjgmyspell-de-ch
+#jjgmyspell-de-de
+#jjgmyspell-el-gr
+#jjgmyspell-en-au
+#jjgmyspell-en-gb
 myspell-en-us
-myspell-en-za
-myspell-eo
-myspell-es
-myspell-et
-myspell-eu-es
-myspell-fa
-myspell-fi
-myspell-fo
-myspell-fr
-myspell-ga
-myspell-gd
-myspell-gl-es
-myspell-gv
-myspell-he
-myspell-hr
-myspell-hu
-myspell-hy
-myspell-it
-myspell-ku
-myspell-lt
-myspell-lv
-myspell-nb
-myspell-nl
-myspell-nn
-myspell-pl
-myspell-pt
-myspell-pt-br
-myspell-pt-pt
-myspell-ru
-myspell-sk
-myspell-sl
-myspell-sv-se
-myspell-sw
-myspell-th
-myspell-uk
+#jjgmyspell-en-za
+#jjgmyspell-eo
+#jjgmyspell-es
+#jjgmyspell-et
+#jjgmyspell-eu-es
+#jjgmyspell-fa
+#jjgmyspell-fi
+#jjgmyspell-fo
+#jjgmyspell-fr
+#jjgmyspell-ga
+#jjgmyspell-gd
+#jjgmyspell-gl-es
+#jjgmyspell-gv
+#jjgmyspell-he
+#jjgmyspell-hr
+#jjgmyspell-hu
+#jjgmyspell-hy
+#jjgmyspell-it
+#jjgmyspell-ku
+#jjgmyspell-lt
+#jjgmyspell-lv
+#jjgmyspell-nb
+#jjgmyspell-nl
+#jjgmyspell-nn
+#jjgmyspell-pl
+#jjgmyspell-pt
+#jjgmyspell-pt-br
+#jjgmyspell-pt-pt
+#jjgmyspell-ru
+#jjgmyspell-sk
+#jjgmyspell-sl
+#jjgmyspell-sv-se
+#jjgmyspell-sw
+#jjgmyspell-th
+#jjgmyspell-uk
