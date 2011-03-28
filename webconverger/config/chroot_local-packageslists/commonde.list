@@ -1,0 +1,45 @@
+#ssh client and server
+system-config-printer-udev
+cups.pdf
+hplip-cups
+bluez.cups
+foomatic-filters-ppds
+gimp-gutenprint
+escputil
+libsane
+libsane-extras
+pcmciautils
+wireless-tools
+openssh-client
+openssh-server
+firmware-linux
+firmware-linux-nonfree
+firmware-atheros
+firmware-brcm80211
+firmware-intelwimax
+firmware-ipw2x00
+firmware-iwlwifi
+firmware-ralink
+firmware-realtek
+libertas-firmware
+curl-ssl
+sqlite3
+uuid
+#diagnosing issues
+dconf
+pciutils
+usbutils
+#gtalk
+google-talkplugin
+libasound2-plugins
+libqt4-core
+#for lxde
+lxpanel
+lxde-common
+#openbox
+#lxsession
+wicd
+python-iwscan
+python-wpactrl
+#cnetworkmanager
+#network-manager-gnome

@@ -5,7 +5,7 @@ MIRROR_DEBIAN="http://localhost:3142/ftp.debian.org/debian"
 
 lb config noauto --clean \
 	--apt-recommends false \
-	--bootappend-live "homepage=http://portal.webconverger.com nonetworking nopersistent quickreboot nomodeset noroot splash" \
+	--bootappend-live "quiet splash homepage=http://www.commonde.org/start nonetworking video=vesa:ywrap,mtrr vga=792 nopersistent quickreboot noroot console=tty0 console=ttyS0,38400n8" \
 	--cache-stages "bootstrap rootfs" \
 	-k 486 \
 	-a i386 \
@@ -13,16 +13,21 @@ lb config noauto --clean \
 	-b iso-hybrid \
 	--apt apt \
 	--username webc \
-	--hostname webconverger \
+	--hostname commonde \
 	--bootloader syslinux \
 	--archive-areas "main contrib non-free" \
 	--distribution sid \
-	--iso-publisher "Webconverger; http://webconverger.com/; support@webconverger.com" \
-	--iso-volume "Webconverger $(date +%Y%m%d-%H:%M)" \
+	--iso-publisher "commonde; http://commonde.org/; support@commonde.org" \
+	--iso-volume "CommonDE $(date +%Y%m%d-%H:%M)" \
 	--memtest none \
 	-m ${MIRROR_DEBIAN} \
 	--mirror-bootstrap ${MIRROR_DEBIAN} \
-	--win32-loader false \
+	--win32-loader true \
 	--source false \
 	-r 'unofficial.debian-maintainers.org live.debian.net' \
 	${@}
+#
+#	--syslinux-splash config/binary_syslinux/splash.rle \
+#	--syslinux-timeout 1 \
+#	--syslinux-menu false \
+#	--binary-indices false \
