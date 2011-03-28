@@ -5,6 +5,7 @@ eject file sudo wget netbase ifupdown
 # Standard
 console-common kbd locales
 dhcp3-client
+syslinux-themes-debian
 
 # X11
 xorg
