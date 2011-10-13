@@ -39,7 +39,5 @@ lxde-common
 #openbox
 #lxsession
 wicd
-python-iwscan
-python-wpactrl
 #cnetworkmanager
 #network-manager-gnome
