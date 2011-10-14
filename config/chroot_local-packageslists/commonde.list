@@ -2,10 +2,12 @@ eject file sudo wget netbase ifupdown
 #commonde
 commonde-base
 commonde-splash
+commonde-sconsole
 commonde-xbackground
 commonde-pb
 commonde-release
 commonde-cookie
+cde-offldiag
 deflxcfg
 cde-lxconfig
 #

@@ -1,5 +1,5 @@
 lb config noauto --clean \
-	--bootappend-live "homepage=http://www.commonde.org/start nopersistant quickreboot console=tty0 console=ttyS0,38400n8" noroot quiet \
+	--bootappend-live "homepage=http://www.commonde.org/start nopersistant quickreboot console=tty0 noroot quiet" \
 	--apt-recommends false \
 	-k 486 \
 	-a i386 \
@@ -15,6 +15,3 @@ lb config noauto --clean \
 	--memtest none \
 	-m http://ftp.us.debian.org/debian \
 	${@}
-#	--bootappend-live "homepage=http://www.commonde.org/start nonetworking video=vesa:ywrap,mtrr vga=792 nopersistant quickreboot console=tty0 console=ttyS0,38400n8" noroot \
-#	--mirror-bootstrap http://ftp.us.debian.org/debian \
-#	-r "unofficial.debian-maintainers.org live.debian.net" \
