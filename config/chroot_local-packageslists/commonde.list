@@ -1,9 +1,14 @@
 eject file sudo wget netbase ifupdown
 #commonde
 commonde-base
+commonde-splash
+commonde-xbackground
 commonde-pb
 commonde-release
 commonde-cookie
+deflxcfg
+cde-lxconfig
+#
 console-common kbd locales
 dhcp3-client
 xorg
@@ -15,10 +20,6 @@ ssh-askpass
 libcrypt-ssleay-perl
 #for plymouth
 fontconfig-config
-
-
-#webconverger-base
-#webconverger-archive-keyring
 
 iceweasel
 iceweasel-webconverger
@@ -92,10 +93,6 @@ usbmount
 google-talkplugin
 libasound2-plugins
 libqt4-core
-#for lxde
-lxpanel
-lxde-common
-openbox
 #diagnosing issues
 pcmciautils
 dconf
