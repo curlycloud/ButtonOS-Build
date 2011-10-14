@@ -1,4 +1,48 @@
-#ssh client and server
+eject file sudo wget netbase ifupdown
+#commonde
+commonde-base
+commonde-pb
+commonde-release
+commonde-cookie
+console-common kbd locales
+dhcp3-client
+xorg
+alsa-base alsa-oss alsa-utils
+syslinux-common
+discover
+laptop-detect
+ssh-askpass
+libcrypt-ssleay-perl
+#for plymouth
+fontconfig-config
+
+
+#webconverger-base
+#webconverger-archive-keyring
+
+iceweasel
+iceweasel-webconverger
+openssl
+ca-certificates
+libcurl3
+xloadimage
+ttf-dejavu
+epdfview
+mozplugger
+flashplugin-nonfree
+unclutter
+wpasupplicant
+wireless-tools
+wicd
+cups
+iptables
+acpid
+acpi-support-base
+ntpdate
+iputils-ping
+myspell-en-us
+user-setup
+#printing
 system-config-printer-udev
 cups.pdf
 hplip-cups
@@ -6,12 +50,27 @@ bluez.cups
 foomatic-filters-ppds
 gimp-gutenprint
 escputil
+hpijs
+hpijs-ppds
+openprinting-ppds
+openprinting-ppds-extra
+c2050
+#c2esp
+cjet
+#foomatic-driver-gutenprint
+cups-driver-gutenprint
+foo2zjs
+ghostscript-cups
+#m2300w
+#ptouch-driver
+#pxljr
+splix
+#scanners
 libsane
 libsane-extras
-pcmciautils
-wireless-tools
-openssh-client
-openssh-server
+#firmware
+firmware-bnx2
+firmware-ipw2x00
 firmware-linux
 firmware-linux-nonfree
 firmware-atheros
@@ -21,14 +80,14 @@ firmware-ipw2x00
 firmware-iwlwifi
 firmware-ralink
 firmware-realtek
+firmware-qlogic
 libertas-firmware
+#utils
 curl-ssl
 sqlite3
 uuid
-#diagnosing issues
-dconf
-pciutils
-usbutils
+#automounting
+usbmount
 #gtalk
 google-talkplugin
 libasound2-plugins
@@ -36,8 +95,14 @@ libqt4-core
 #for lxde
 lxpanel
 lxde-common
-#openbox
-#lxsession
-wicd
-#cnetworkmanager
-#network-manager-gnome
+openbox
+#diagnosing issues
+pcmciautils
+dconf
+pciutils
+usbutils
+dmidecode
+#ssh client and server
+openssh-client
+openssh-server
+x11vnc
