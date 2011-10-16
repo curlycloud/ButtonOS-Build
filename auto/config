@@ -1,17 +1,17 @@
 lb config noauto --clean \
-	--bootappend-live "homepage=http://www.commonde.org/start nopersistant quickreboot console=tty0 noroot quiet" \
+	--bootappend-live "homepage=http://www.buttonos.org/start nopersistant quickreboot console=tty0 noroot quiet" \
 	--apt-recommends false \
 	-k 486 \
 	-a i386 \
 	-f standard \
 	--syslinux-timeout 1 \
 	--debian-installer false \
-	--username commonde \
-	--hostname commonde \
+	--username buttonuser \
+	--hostname buttonmach \
 	--archive-areas "main contrib non-free" \
-	--iso-publisher "commonde: http://commonde.org/; support@commonde.org" \
-	--iso-volume "CommonDE $(date +%Y%m%d-%H:%M)" \
-	--iso-application "CommonDE" \
+	--iso-publisher "buttonos: http://buttonos.org/; support@buttonos.org" \
+	--iso-volume "ButtonOS $(date +%Y%m%d-%H:%M)" \
+	--iso-application "ButtonOS" \
 	--memtest none \
 	-m http://ftp.us.debian.org/debian \
 	${@}

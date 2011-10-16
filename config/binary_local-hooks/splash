@@ -1,2 +1,2 @@
 #!/bin/sh
-cp chroot/isolinux/commonde.lss binary/isolinux/splash.png && exit 0
+cp chroot/isolinux/buttonos.lss binary/isolinux/splash.png && exit 0
