@@ -1,4 +1,0 @@
-#!/bin/sh
-wget -qO- --timeout=5 --post-data="M=$(md5sum /sys/class/net/eth0/address |
-awk '{print $1}')&V=$(dpkg -s webconverger-base |
-awk '/^Version: / { print $2 }')" http://ping.webconverger.org
