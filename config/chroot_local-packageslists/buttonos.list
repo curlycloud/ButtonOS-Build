@@ -20,9 +20,10 @@ discover
 laptop-detect
 ssh-askpass
 libcrypt-ssleay-perl
+udisks
 #for plymouth
 fontconfig-config
-
+#
 iceweasel
 iceweasel-webconverger
 openssl
