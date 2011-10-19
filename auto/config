@@ -1,5 +1,5 @@
 lb config noauto --clean \
-	--bootappend-live "homepage=http://www.buttonos.org/start nopersistant quickreboot console=tty0 noroot quiet" \
+	--bootappend-live "homepage=http://www.buttonos.org/start nopersistant quickreboot console=tty0" \
 	--apt-recommends false \
 	-k 486 \
 	-a i386 \
