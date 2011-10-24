@@ -72,6 +72,7 @@ splix
 #scanners
 libsane
 libsane-extras
+xsane
 #firmware
 firmware-bnx2
 firmware-ipw2x00
