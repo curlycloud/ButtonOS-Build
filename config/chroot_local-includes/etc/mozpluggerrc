@@ -3,9 +3,3 @@ application/x-pdf:pdf:PDF file
 text/pdf:pdf:PDF file
 text/x-pdf:pdf:PDF file
 	repeat noisy swallow(epdfview) fill: epdfview "$file"
-application/buttonwi:sh:ButtonOS execution
-	repeat swallow(*Wicd) fill embed : wicd-gtk -n -a
-application/buttonxt:sh:ButtonOS execution
-	repeat swallow(*xterm) fill embed : xterm
-application/buttonpl:sh:ButtonOS execution
-	repeat embed : perl "$file"
