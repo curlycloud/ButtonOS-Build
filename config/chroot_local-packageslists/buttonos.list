@@ -37,7 +37,8 @@ flashplugin-nonfree
 unclutter
 wpasupplicant
 wireless-tools
-wicd
+network-manager
+network-manager-gnome
 cups
 iptables
 acpid
@@ -91,6 +92,8 @@ libertas-firmware
 curl-ssl
 sqlite3
 uuid
+unzip
+xmlstarlet
 #automounting
 usbmount
 #gtalk
