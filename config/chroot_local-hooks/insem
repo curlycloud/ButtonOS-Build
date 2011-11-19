@@ -1,0 +1,6 @@
+#!/bin/sh
+
+for x in /tmp/*.xpi
+do
+	/usr/lib/buttonos/installext.sh -f $x -d /usr/lib/iceweasel/extensions -o linux && rm $x
+done
