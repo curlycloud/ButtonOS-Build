@@ -1,0 +1,8 @@
+#!/bin/sh
+
+touch /etc/iceweasel/profile/prefs.js
+for x in /tmp/*.pref
+do
+	cat $x >> /etc/iceweasel/profile/prefs.js && rm $x
+done
+
