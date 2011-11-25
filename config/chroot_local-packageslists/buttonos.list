@@ -39,6 +39,7 @@ wpasupplicant
 wireless-tools
 network-manager
 network-manager-gnome
+python-dbus
 cups
 iptables
 acpid
