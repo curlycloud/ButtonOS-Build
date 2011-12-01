@@ -11,6 +11,10 @@ bos-offldiag
 deflxcfg
 bos-lxconfig
 #
+#cmd line js interpreter
+seed
+#For dbus?
+libgnomevfs2-0
 console-common kbd locales
 dhcp3-client
 xorg
