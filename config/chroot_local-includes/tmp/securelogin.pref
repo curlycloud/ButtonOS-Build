@@ -1,3 +1,4 @@
+user_pref("extensions.secureLogin@blueimp.net.autoLogin", true);
 user_pref("extensions.secureLogin@blueimp.net.autofillFormsOnLogin", true);
 user_pref("extensions.secureLogin@blueimp.net.hideStatusbarIcon", false);
 user_pref("extensions.secureLogin@blueimp.net.javascriptProtection", true);
@@ -6,3 +7,4 @@ user_pref("extensions.secureLogin@blueimp.net.secureLoginBookmarks", true);
 user_pref("pref.advanced.javascript.disable_button.advanced", false);
 user_pref("pref.privacy.disable_button.view_passwords", false);
 user_pref("signon.autofillForms", true);
+user_pref("signon.rememberSignons", true);
