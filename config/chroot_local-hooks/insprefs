@@ -1,8 +1,19 @@
 #!/bin/sh
+PREFSDIR="/usr/lib/iceweasel/defaults/preferences"
+PREFSFILE=$PREFSDIR/local-settings.js
+CFGFILE="/usr/lib/iceweasel/buttonos.cfg"
+UPREFSFILE="/etc/iceweasel/profile/prefs.js"
 
-touch /etc/iceweasel/profile/prefs.js
+touch $UPREFSFILE
+echo "//" > $CFGFILE
 for x in /tmp/*.pref
 do
-	cat $x >> /etc/iceweasel/profile/prefs.js && rm $x
+	grep "user_pref" $x >> $UPREFSFILE
+	grep "lockPref" $x >> $CFGFILE
+	rm $x
 done
 
+mkdir -p $PREFSDIR
+touch $PREFSFILE
+echo 'pref("general.config.obscure_value", 0);' >> $PREFSFILE
+echo 'pref("general.config.filename", "buttonos.cfg");' >> $PREFSFILE
