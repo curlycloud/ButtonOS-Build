@@ -7,4 +7,4 @@ user_pref("extensions.secureLogin@blueimp.net.secureLoginBookmarks", true);
 user_pref("pref.advanced.javascript.disable_button.advanced", false);
 user_pref("pref.privacy.disable_button.view_passwords", false);
 user_pref("signon.autofillForms", true);
-user_pref("signon.rememberSignons", true);
+lockPref("signon.rememberSignons", true);
