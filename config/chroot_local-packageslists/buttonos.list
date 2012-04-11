@@ -1,11 +1,8 @@
 eject file sudo wget netbase ifupdown
 #buttonos
 buttonos-base
-buttonos-splash
 buttonos-sconsole
-buttonos-xbackground
 buttonos-pb
-buttonos-release
 buttonos-cookie
 bos-offldiag
 deflxcfg
@@ -13,6 +10,10 @@ bos-lxconfig
 #
 #cmd line js interpreter
 seed
+#
+cellwriter
+florence
+dasher
 #For dbus?
 libgnomevfs2-0
 console-common kbd locales
@@ -29,7 +30,8 @@ udisks
 fontconfig-config
 #
 iceweasel
-iceweasel-webconverger
+#iceweasel-webconverger
+xmlstarlet
 openssl
 ca-certificates
 libcurl3

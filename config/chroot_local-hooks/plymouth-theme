@@ -1,0 +1,5 @@
+#!/bin/sh
+apt-get install -y plymouth buttonos-splash buttonos-release buttonos-xbackground plymouth-x11 plymouth-themes-script
+/usr/sbin/plymouth-set-default-theme script 
+#/usr/sbin/plymouth-set-default-theme
+true
