@@ -150,7 +150,7 @@ setUp () {
 
 getID () {
 
-eval `xmlstarlet sel -N rd="http://www.w3.org/1999/02/22-rdf-syntax-ns#" \
+eval `/usr/bin/xmlstarlet sel -N rd="http://www.w3.org/1999/02/22-rdf-syntax-ns#" \
 	-N em="http://www.mozilla.org/2004/em-rdf#" \
 	-t \
 		-m '/rd:RDF/rd:Description/em:id'  -o "ID=&quot;" -v . -o "&quot;" -n \
