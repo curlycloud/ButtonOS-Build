@@ -4,6 +4,7 @@ PREFSFILE=$PREFSDIR/local-settings.js
 CFGFILE="/usr/lib/iceweasel/buttonos.cfg"
 UPREFSFILE="/etc/iceweasel/profile/prefs.js"
 
+mkdir -p `dirname $UPREFSFILE`
 touch $UPREFSFILE
 echo "//" > $CFGFILE
 for x in /tmp/*.pref
