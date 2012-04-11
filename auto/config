@@ -1,9 +1,13 @@
 lb config noauto --clean \
-	--bootappend-live "homepage=http://www.buttonos.org/start nopersistant quickreboot console=tty0" \
-	--apt-recommends false \
+	--bootappend-live "homepage=http://www.buttonos.org/start nopersistant quickreboot console=tty0 splash vga=792" \
 	-k 486 \
 	-a i386 \
 	-f standard \
+	-r live \
+	--apt-recommends false \
+	--includes none \
+	--security true \
+	--backports true \
 	--syslinux-timeout 1 \
 	--debian-installer false \
 	--username buttonuser \
@@ -13,5 +17,5 @@ lb config noauto --clean \
 	--iso-volume "ButtonOS $(date +%Y%m%d-%H:%M)" \
 	--iso-application "ButtonOS" \
 	--memtest none \
-	-m http://ftp.us.debian.org/debian \
+	-m http://192.168.2.1:3142/ftp.us.debian.org/debian \
 	${@}
