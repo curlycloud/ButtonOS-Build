@@ -10,10 +10,11 @@ bos-lxconfig
 #
 #cmd line js interpreter
 seed
-#
+#Interesting, but...
 cellwriter
 florence
 dasher
+#skype
 #For dbus?
 libgnomevfs2-0
 console-common kbd locales
