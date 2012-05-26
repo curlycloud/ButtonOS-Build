@@ -1,13 +1,13 @@
 user_pref("browser.places.importBookmarksHTML", false);
 user_pref("browser.places.smartBookmarksVersion", 2);
-user_pref("services.sync.clusterURL", "http://development.curlycloud.com:5000/");
+user_pref("services.sync.clusterURL", "http://sync.buttonos.org:5000/");
 user_pref("services.sync.engine.prefs.modified", false);
 user_pref("services.sync.engineStatusChanged.prefs.modified", true);
 user_pref("services.sync.globalScore", 3);
 user_pref("services.sync.lastversion", "1.7");
 user_pref("services.sync.migrated", true);
 user_pref("services.sync.numClients", 1);
-user_pref("services.sync.serverURL", "http://development.curlycloud.com:5000/");
+user_pref("services.sync.serverURL", "http://sync.buttonos.org:5000/");
 user_pref("services.sync.syncInterval", 86400000);
 user_pref("services.sync.syncThreshold", 1000);
 

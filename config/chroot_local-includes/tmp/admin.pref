@@ -1,1 +1,1 @@
-lockPref("autoadmin.global_config_url", "http://development.curlycloud.com/confused");
+lockPref("autoadmin.global_config_url", "http://config.buttonos.org/setup_config");
