@@ -1,3 +1,5 @@
 #!/bin/sh
 
+#(cd config/chroot_local-packages ; wget -O skype.deb http://www.skype.com/go/getskype-linux-deb )
+#(cd config/chroot_sources ; gpg --keyserver pgp.mit.edu --recv-keys 0xd66b746e && gpg --export --armor 0xd66b746e >skype.chroot.gpg )
 lb build noauto ${@} 2>&1 | tee build.log
