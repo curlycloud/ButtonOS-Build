@@ -1,0 +1,2 @@
+mkdir -p /home/buttonuser/.cfg_scripts/
+cp -a /etc/init.d/alsa-speaker /home/buttonuser/.cfg_scripts/

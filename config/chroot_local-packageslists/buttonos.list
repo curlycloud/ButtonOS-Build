@@ -7,19 +7,28 @@ buttonos-cookie
 bos-offldiag
 deflxcfg
 bos-lxconfig
+# Not Buttonos, Really for Runway
+buttonos-shell
+buttonos-pam-u
 #
 #cmd line js interpreter
 seed
-#Interesting, but...
+#Keyboards/input
 cellwriter
 florence
 dasher
-#skype
+#Assistive tech
+at-spi
+#at-spi2-core
+skype
 #For dbus?
 libgnomevfs2-0
 console-common kbd locales
 dhcp3-client
 xorg
+#xserver-xorg-core
+xserver-xorg-input-all
+xserver-xorg-video-all
 alsa-base alsa-oss alsa-utils
 syslinux-common
 discover
@@ -106,6 +115,9 @@ xmlstarlet
 usbmount
 #gtalk
 google-talkplugin
+gstreamer0.10-plugins-base
+gstreamer0.10-plugins-good
+gstreamer0.10-plugins-bad
 libasound2-plugins
 libqt4-core
 #diagnosing issues
@@ -118,3 +130,9 @@ dmidecode
 openssh-client
 openssh-server
 x11vnc
+# For setting touchscreen
+xinput
+#bluetooth
+bluetooth
+blueman
+

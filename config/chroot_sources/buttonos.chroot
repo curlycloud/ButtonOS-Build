@@ -1,2 +1,3 @@
 deb http://apt.buttonos.org/ squeeze main contrib
+deb http://apt.buttonos.org/Runway-apt squeeze main contrib
 

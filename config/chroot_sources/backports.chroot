@@ -1,2 +1,2 @@
-#deb http://192.168.2.1:3142/backports.debian.org/debian-backports squeeze-backports main contrib non-free
-deb http://192.168.2.1:3142/mozilla.debian.net/ squeeze-backports iceweasel-release
+#deb http://backports.debian.org/debian-backports squeeze-backports main contrib non-free
+deb http://mozilla.debian.net/ squeeze-backports iceweasel-release

@@ -1,0 +1,25 @@
+#!/bin/sh
+### BEGIN INIT INFO
+# Provides:          alsa-speaker
+# Required-Start:    $remote_fs alsa-utils
+# Required-Stop:     $remote_fs
+# Default-Start:     S
+# Default-Stop:      0 1 6
+# Short-Description: Set speaker volume
+# Description:       Set speaker volume
+### END INIT INFO
+#
+# alsa-speaker initscript
+#
+
+. /lib/lsb/init-functions
+
+EXITSTATUS=0
+log_action_begin_msg "Setting up ALSA card ${TARGET_CARD}"
+amixer -q set "Speaker" "100%"
+amixer -q set "Headphone" "100%"
+amixer -q set "Master" "95%"
+amixer -q set "Mic Boost" "88%"
+amixer -q set "Capture" "88%"
+amixer get "Speaker" > /tmp/SpeakerSetup
+log_action_end_msg "$EXITSTATUS"
