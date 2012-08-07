@@ -7,9 +7,6 @@ buttonos-cookie
 bos-offldiag
 deflxcfg
 bos-lxconfig
-# Not Buttonos, Really for Runway
-buttonos-shell
-buttonos-pam-u
 #
 #cmd line js interpreter
 seed
@@ -40,7 +37,6 @@ udisks
 fontconfig-config
 #
 iceweasel
-#iceweasel-webconverger
 xmlstarlet
 openssl
 ca-certificates
@@ -55,6 +51,9 @@ wpasupplicant
 wireless-tools
 network-manager
 network-manager-gnome
+gnome-keyring
+modemmanager
+usb-modeswitch
 python-dbus
 cups
 iptables

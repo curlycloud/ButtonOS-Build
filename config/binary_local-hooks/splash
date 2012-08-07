@@ -1,2 +1,4 @@
 #!/bin/sh
-cp chroot/isolinux/buttonos.lss binary/isolinux/splash.png && exit 0
+cp splash_files/Runway-Boot-Image.png  binary/isolinux/buttonos.lss
+cp splash_files/Runway-Boot-Image.png binary/isolinux/splash.png
+cp splash_files/Runway-Boot-Image.png binary/syslinux/splash.png && exit 0
