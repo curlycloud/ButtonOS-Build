@@ -1,5 +1,5 @@
 lb config noauto --clean \
-	--bootappend-live "homepage=http://www.buttonos.org/start nopersistant quickreboot console=tty0 splash vga=792" \
+	--bootappend-live "homepage=http://www.buttonos.org/start persistant quickreboot console=tty0 splash vga=792" \
 	-k 486 \
 	-a i386 \
 	-f standard \
@@ -17,5 +17,6 @@ lb config noauto --clean \
 	--iso-volume "ButtonOS $(date +%Y%m%d-%H:%M)" \
 	--iso-application "ButtonOS" \
 	--memtest none \
-	-m http://192.168.2.1:3142/ftp.us.debian.org/debian \
+	--grub-splash splash_files/Runway-Boot-Image.png \
+	-m http://ftp.us.debian.org/debian \
 	${@}
