@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="file" mtime="1343253907" type="string">
+		<stringvalue>/usr/share/florence/layouts/florence.xml</stringvalue>
+	</entry>
+</gconf>

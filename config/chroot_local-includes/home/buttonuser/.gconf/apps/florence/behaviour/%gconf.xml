@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="move_to_widget" mtime="1343253907" type="bool" value="true"/>
+	<entry name="auto_hide" mtime="1343253907" type="bool" value="true"/>
+	<entry name="intermediate_icon" mtime="1343253907" type="bool" value="true"/>
+</gconf>

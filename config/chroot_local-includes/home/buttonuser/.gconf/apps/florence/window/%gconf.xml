@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="ypos" mtime="1343254180" type="int" value="363"/>
+	<entry name="xpos" mtime="1343254180" type="int" value="190"/>
+	<entry name="resizable" mtime="1343253907" type="bool" value="false"/>
+	<entry name="zoom" mtime="1343253937" type="float" value="23.828147888183594"/>
+</gconf>
