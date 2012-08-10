@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
 fi
 
 PKGHOME=/tmp
-PKGFILE=$PHGHOME/lxde-cfg.tgz
+PKGFILE=$PKGHOME/lxde-cfg.tgz
 CFGURL="http://www.buttonos.org/load/themes/lxde-cfg.tgz"
 INSTFILE=/usr/share/lxde/defcfg.tgz
 
@@ -15,6 +15,7 @@ case "$2" in
 		cd / ;  tar -xzf $PKGFILE.tmp ) &
 	;;
 	down)
+		( cd / ;  tar -xzf $INSTFILE ) &
 	;;
 	vpn-up|vpn-down)
 	;;
