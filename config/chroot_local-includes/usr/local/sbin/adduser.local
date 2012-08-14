@@ -1,10 +1,12 @@
-mkdir -p /home/buttonuser/.cfg_scripts/
+#!/bin/sh
+[ "x$HOME" = "x" ] && HOME=/home/buttonuser
+mkdir -p $HOME/.cfg_scripts/
 #HACKISH. This is supposed to be run on startup. For some reason it isn't
-cp -a /etc/init.d/alsa-speaker /home/buttonuser/.cfg_scripts/
+cp -a /etc/init.d/alsa-speaker $HOME/.cfg_scripts/
 #Turn it into a "generalized mechanism".
-cat <<EOF > /home/buttonuser/.cfg_scripts/base.sh
-gconftool-2 --set "/desktop/gnome/interface/accessability" --type boolean "True"
+cat <<EOF > $HOME/.cfg_scripts/base.sh
+gconftool-2 --direct --config-source=xml:readwrite:$HOME/.gconf --set /desktop/gnome/interface/accessability --type boolean true
 [ ! -f /var/lib/alsa/asound.state ] && /usr/sbin/alsactl init
 amixer -q set "Capture" cap
 EOF
-chmod +x /home/buttonuser/.cfg_scripts/base.sh
+chmod +x $HOME/.cfg_scripts/base.sh
