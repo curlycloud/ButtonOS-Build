@@ -1,5 +1,18 @@
 Package: *
-Pin: release o=Debian Backports
-Pin-Priority: 999
+Pin: release o=Debian,a=stable
+Pin-Priority: 800
+
+Package: *
+Pin: release o=Debian,a=stable-updates
+Pin-Priority: 800
+
+Package: *
+Pin: release a=squeeze-backports
+Pin-Priority: 900
+
+Package: *
+Pin: origin "http://mozilla.debian.net";
+Pin-Priority: 900
+Pin-Priority: 200
 
 
