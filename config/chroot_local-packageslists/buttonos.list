@@ -11,13 +11,10 @@ bos-lxconfig
 #cmd line js interpreter
 seed
 #Keyboards/input
-cellwriter
 florence
-dasher
 #Assistive tech
 at-spi
 #at-spi2-core
-skype
 #For dbus?
 libgnomevfs2-0
 console-common kbd locales
