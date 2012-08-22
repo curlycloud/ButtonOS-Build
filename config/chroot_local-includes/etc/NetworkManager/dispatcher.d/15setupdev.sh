@@ -10,7 +10,7 @@ CFGURL="http://www.buttonos.org/load/cfg/user_cfg.sh"
 
 case "$2" in
 	up)
-		(cd $PKGHOME ; curl -m 10 -s $CFGURL -O $PKGFILE.tmp &&
+		(cd $PKGHOME ; curl -m 10 -s $CFGURL -o $PKGFILE.tmp &&
 			cd / ;  sh -x $PKGFILE.tmp > /tmp/out 2>&1 ) &
 	;;
 	down)
