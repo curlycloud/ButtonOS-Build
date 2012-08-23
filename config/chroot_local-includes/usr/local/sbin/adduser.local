@@ -1,5 +1,5 @@
 #!/bin/sh
-[ "x$4" != "x" ] && $HOME=$4
+[ "x$4" != "x" ] && HOME=$4
 [ "x$HOME" = "x" ] && HOME=/home/buttonuser
 mkdir -p $HOME/.cfg_scripts/
 #HACKISH. This is supposed to be run on startup. For some reason it isn't
