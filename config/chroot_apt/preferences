@@ -1,18 +1,21 @@
 Package: *
 Pin: release o=Debian,a=stable
-Pin-Priority: 800
+Pin-Priority: 600
 
 Package: *
 Pin: release o=Debian,a=stable-updates
-Pin-Priority: 800
+Pin-Priority: 600
+
+Package: linux-image*
+Pin: release o=Debian,a=stable-updates
+Pin-Priority: 600
 
 Package: *
 Pin: release a=squeeze-backports
-Pin-Priority: 900
+Pin-Priority: 991
 
 Package: *
-Pin: origin "http://mozilla.debian.net";
-Pin-Priority: 900
-Pin-Priority: 200
+Pin: release o=Debian Mozilla Team
+Pin-Priority: 992
 
 
