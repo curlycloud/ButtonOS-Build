@@ -1,0 +1,7 @@
+#!/bin/sh
+cp /usr/share/iceweasel/defaults/preferences/firefox.js /tmp/firefox.js
+
+sed '
+s:"browser.tabs.closeButtons",\s1:"browser.tabs.closeButtons", 3:
+' < /tmp/firefox.js > /usr/share/iceweasel/defaults/preferences/firefox.js
+
