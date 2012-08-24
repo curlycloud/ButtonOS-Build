@@ -3,5 +3,6 @@ cp /usr/share/iceweasel/defaults/preferences/firefox.js /tmp/firefox.js
 
 sed '
 s:"browser.tabs.closeButtons",\s1:"browser.tabs.closeButtons", 3:
+s:"browser.urlbar.clickSelectsAll",\sfalse:"browser.urlbar.clickSelectsAll", true:
 ' < /tmp/firefox.js > /usr/share/iceweasel/defaults/preferences/firefox.js
 
