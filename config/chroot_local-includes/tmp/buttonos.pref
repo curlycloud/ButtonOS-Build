@@ -1,1 +1,2 @@
 user_pref("browser.tabs.closeButtons", "3");
+user_pref("browser.urlbar.clickSelectsAll", "true");
